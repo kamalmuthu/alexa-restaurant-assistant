@@ -1,0 +1,31 @@
+FindRestaurant Find a restaurant
+FindRestaurant I am hungry
+FindRestaurant Where can I eat
+FindRestaurant Is there anything good to eat around
+FindRestaurant Find a {foodType} restaurant
+FindRestaurant Find a {price} {foodType} restaurant
+FindRestaurant Find a {rating} restaurant
+FindRestaurant Find a {rating} {foodType} restaurant
+FindRestaurant I am in mood for {foodType}
+FindRestaurant I have munchies for {foodType}
+
+RestaurantDetails More details on {restaurantName}
+RestaurantDetails {restaurantName}
+RestaurantDetails Is {restaurantName} open right now?
+RestaurantDetails How expensive is {restaurantName}
+RestaurantDetails What is {restaurantName} rating
+
+RefineSearch {price}
+RefineSearch {rating}
+RefineSearch {price} is fine
+RefineSearch {rating} is fine
+RefineSearch No, I want something {price}
+RefineSearch I am okay with {rating}
+RefineSearch I am actually looking for something that is more {rating}
+RefineSearch I am actually looking for something that is more {price}
+RefineSearch At least {rating}
+RefineSearch More than {rating}
+
+
+
+

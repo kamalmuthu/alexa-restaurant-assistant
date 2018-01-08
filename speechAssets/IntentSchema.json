@@ -1,0 +1,62 @@
+{
+  "intents": [
+    {
+      "intent": "FindRestaurant",
+      "slots": [
+        {
+          "name": "foodType",
+          "type": "LIST_OF_FOOD_TYPES"
+        },
+        {
+          "name": "rating",
+          "type": "LIST_OF_RATINGS"
+        },
+        {
+          "name":"price",
+          "type": "LIST_OF_PRICES"
+        }
+      ]
+    },
+    {
+      "intent": "RefineSearch",
+      "slots": [
+        {
+          "name": "foodType",
+          "type": "LIST_OF_FOOD_TYPES"
+        },
+        {
+          "name": "rating",
+          "type": "LIST_OF_RATINGS"
+        },
+        {
+          "name":"price",
+          "type": "LIST_OF_PRICES"
+        }
+      ]
+    },
+    {
+      "intent": "RestaurantDetails",
+      "slots": [
+        {
+          "name": "restaurantName",
+          "type": "LIST_OF_RESTAURANT_NAMES"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StartOverIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "AMAZON.YesIntent"
+    }
+  ]
+}
